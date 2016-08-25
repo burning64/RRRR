@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{2b6925e9-8035-4e49-8c6f-0752e2a31dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NetworkFlow">
+      <UniqueIdentifier>{a6cc2c81-cd06-49e9-b596-a55413e7255a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DC">
+      <UniqueIdentifier>{bb70bca1-30d9-4fa6-8c97-f9cd5dd9658a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BFS,DFS">
+      <UniqueIdentifier>{2b2702b8-7b09-4e5a-89be-97896f2f17fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SCC">
+      <UniqueIdentifier>{53d87820-a901-41b0-a727-dc8f9a4322e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dijkstra">
+      <UniqueIdentifier>{5d182fa2-6fcf-4ac9-b89c-c80cc9376f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bitmask">
+      <UniqueIdentifier>{990be767-76b2-4a66-aa9c-1decf4518453}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BOARDCOVER.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TRIANGLEPATH.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="week.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="노드사이거리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="욕심쟁이판다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="피타고라스기대값.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="카드게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="파일합치기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2xn타일링2.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2xn타일링.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="내리막길.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자카드.cpp">
+      <Filter>소스 파일\DC</Filter>
+    </ClCompile>
+    <ClCompile Include="종이의개수.cpp">
+      <Filter>소스 파일\DC</Filter>
+    </ClCompile>
+    <ClCompile Include="쿼드트리.cpp">
+      <Filter>소스 파일\DC</Filter>
+    </ClCompile>
+    <ClCompile Include="스타트링크.cpp">
+      <Filter>소스 파일\BFS,DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="토마토.cpp">
+      <Filter>소스 파일\BFS,DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="트리의지름.cpp">
+      <Filter>소스 파일\BFS,DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="연결요소의개수.cpp">
+      <Filter>소스 파일\BFS,DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="알약.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="색종이.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB거리.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="이친수.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="정상회담.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치함수.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Strongly Connected Component.cpp">
+      <Filter>소스 파일\SCC</Filter>
+    </ClCompile>
+    <ClCompile Include="붕어빵판매하기.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="파도반수열.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="스티커.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="오르막수.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="쉬운계단수.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="암호코드.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="포도주시식.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="이동하기.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="열혈강호2.cpp">
+      <Filter>소스 파일\NetworkFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="열혈강호3.cpp">
+      <Filter>소스 파일\NetworkFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="열혈강호4.cpp">
+      <Filter>소스 파일\NetworkFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="축사배정.cpp">
+      <Filter>소스 파일\NetworkFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="최단경로.cpp">
+      <Filter>소스 파일\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="열혈강호_2.cpp">
+      <Filter>소스 파일\NetworkFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="열혈강호_1.cpp">
+      <Filter>소스 파일\NetworkFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="열혈강호_timeover.cpp">
+      <Filter>소스 파일\NetworkFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="구호물자_x.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="회의실배정_x.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex_pizza.cpp">
+      <Filter>소스 파일\bitmask</Filter>
+    </ClCompile>
+    <ClCompile Include="graduation_x.cpp">
+      <Filter>소스 파일\bitmask</Filter>
+    </ClCompile>
+    <ClCompile Include="1로만들기.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="계단오르기.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2차원배열의합.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자삼각형.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

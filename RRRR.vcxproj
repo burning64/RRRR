@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{965927F0-053D-433C-9602-8E35548143CF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RRRR</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="1로만들기.cpp" />
+    <ClCompile Include="2xn타일링.cpp" />
+    <ClCompile Include="2xn타일링2.cpp" />
+    <ClCompile Include="2차원배열의합.cpp" />
+    <ClCompile Include="BOARDCOVER.cpp" />
+    <ClCompile Include="graduation_x.cpp" />
+    <ClCompile Include="RGB거리.cpp" />
+    <ClCompile Include="Strongly Connected Component.cpp" />
+    <ClCompile Include="TRIANGLEPATH.cpp" />
+    <ClCompile Include="week.cpp" />
+    <ClCompile Include="계단오르기.cpp" />
+    <ClCompile Include="구호물자_x.cpp" />
+    <ClCompile Include="내리막길.cpp" />
+    <ClCompile Include="ex_pizza.cpp" />
+    <ClCompile Include="숫자삼각형.cpp" />
+    <ClCompile Include="열혈강호_1.cpp" />
+    <ClCompile Include="열혈강호_timeover.cpp" />
+    <ClCompile Include="노드사이거리.cpp" />
+    <ClCompile Include="붕어빵판매하기.cpp" />
+    <ClCompile Include="숫자카드.cpp" />
+    <ClCompile Include="쉬운계단수.cpp" />
+    <ClCompile Include="스타트링크.cpp" />
+    <ClCompile Include="스티커.cpp" />
+    <ClCompile Include="알약.cpp" />
+    <ClCompile Include="암호코드.cpp" />
+    <ClCompile Include="연결요소의개수.cpp" />
+    <ClCompile Include="열혈강호2.cpp" />
+    <ClCompile Include="열혈강호3.cpp" />
+    <ClCompile Include="열혈강호4.cpp" />
+    <ClCompile Include="열혈강호_2.cpp" />
+    <ClCompile Include="오르막수.cpp" />
+    <ClCompile Include="욕심쟁이판다.cpp" />
+    <ClCompile Include="이동하기.cpp" />
+    <ClCompile Include="이친수.cpp" />
+    <ClCompile Include="정상회담.cpp" />
+    <ClCompile Include="종이의개수.cpp" />
+    <ClCompile Include="최단경로.cpp" />
+    <ClCompile Include="축사배정.cpp" />
+    <ClCompile Include="카드게임.cpp" />
+    <ClCompile Include="쿼드트리.cpp" />
+    <ClCompile Include="토마토.cpp" />
+    <ClCompile Include="트리의지름.cpp" />
+    <ClCompile Include="파도반수열.cpp" />
+    <ClCompile Include="색종이.cpp" />
+    <ClCompile Include="파일합치기.cpp" />
+    <ClCompile Include="포도주시식.cpp" />
+    <ClCompile Include="피보나치함수.cpp" />
+    <ClCompile Include="피타고라스기대값.cpp" />
+    <ClCompile Include="회의실배정_x.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
